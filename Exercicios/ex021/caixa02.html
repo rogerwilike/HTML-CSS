@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.479);
+        }
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.479);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-align: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.288);
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(197, 196, 196);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <article>
+                    <h2>News about Economics</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolorum, nihil voluptates voluptas delectus officia non doloremque ullam fugiat excepturi inventore dignissimos qui cum blanditiis. Id sint debitis dolore sed?</p>
+                </article>
+                <aside>
+                    <p>Article write by JP</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        Developed by Roger with CursoemVideo
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
